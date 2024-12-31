@@ -12,7 +12,7 @@ class Main():
         self.decision_tree_ID3 = DecisionTree(self.dataset.data().data,label_index,atribute_index)
     def run(self):
         self.visualize.visualize_data(self.dataset.data())
-        print(f"tong node duoc tao ra = {self.decision_tree_ID3.call}")
+        print(f"toal node = {self.decision_tree_ID3.call}")
         self.visualize.visualize_tree(self.decision_tree_ID3)
       
      
