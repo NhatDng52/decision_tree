@@ -38,7 +38,7 @@ def info_gain(data, atribute_index , label_index):
 #     [3, 'b'],
 #     [4, 'd'],
 # ])
-
+# print(data.shape)
 # print(entropy(data, 0))  # Output: 4
 # print(entropy(data, 1))  # Output: 3
 # print(info_gain(data,0,1))

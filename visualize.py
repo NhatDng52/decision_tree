@@ -9,10 +9,6 @@ class Visualize():
         df = pd.DataFrame(data.data, columns=data.feature_names)
         df['label'] = data.target
         print(df)
-    def visualize_tree(self,tree):   
-        tree.plot_tree()
+    def visualize_tree(self,decision_tree):   
+        decision_tree.print_tree()
 
-# dataset = Dataset()
-# wine = dataset.data()
-# test= Visualize()
-# test.visualize_data(wine)
